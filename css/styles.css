@@ -1,0 +1,60 @@
+body
+{
+    background-color: rgb(236, 241, 245);
+}
+img
+{
+    height: 250px;
+}
+hr
+{
+    border-color: #d3d03f;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    height: 0px;
+    width: 8%;
+}
+h1
+{
+    color: #d3d03f;
+}
+h3
+{
+    color: #d3d03f;
+    margin-bottom: 0.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+ul
+{
+    margin-bottom: 0.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+table
+{
+    margin-bottom: 0.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+a
+{
+    margin-bottom: 0.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/**********************************************Class Selectors**********************************************/
+
+/**********************************************ID Selectors**********************************************/
+#erkin
+{
+    /*
+    background-color: #d3d03f;
+    */
+    height: 225px;
+}
+#erkin:hover
+{
+    height: 250px;
+}
