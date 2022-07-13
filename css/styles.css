@@ -1,65 +1,76 @@
 body
 {
     background-color: rgb(236, 241, 245);
+    color: #40514E;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 img
 {
-    height: 250px;
+    height: 15.625rem;
 }
 hr
 {
-    border-color: #d3d03f;
+    /*border-color: rgb(255,180,0);*/
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
     height: 0px;
-    width: 8%;
+    width: 5%;
 }
 h1
 {
-    color: #d3d03f;
+    font-size: 3.50rem;
+    color:rgb(255,180,0);
+    font-family: 'Sacramento', cursive;
+    margin: 0 auto 0 auto;
+}
+h2
+{
+    font-size: 3.125rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 h3
 {
-    color: #d3d03f;
-    margin-bottom: 0.5em;
-    margin-left: 2%;
-    margin-right: 2%;
+    font-size: 2.50rem;
+    color: rgb(255,180,0);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin: 0 auto 0 auto;
 }
 ul
 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     margin-left: 2%;
     margin-right: 2%;
 }
 ol
 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
 }
 table
 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
 }
 a
 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     margin-left: 2%;
     margin-right: 2%;
 }
-div
-{
-    background-color:  rgb(236, 241, 245);
-    /*text-align: center;*/
-}
 /**********************************************Class Selectors**********************************************/
+.job
+{
+    font-size: 1.5rem;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .top-container
 {
     background-color: rgb(236, 241, 245);
     border: 5px;
+    position: relative;
     text-align: center;
     /*
     background-color: aquamarine;
@@ -84,7 +95,7 @@ div
 }
 .bot-container
 {
-    background-color: rgb(236, 241, 245);
+    background-color: rgb(141, 206, 243);
     border: 4px;
     text-align: center;
     /*
@@ -94,15 +105,67 @@ div
     margin-left: 70%;
     */
 }
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 /**********************************************ID Selectors**********************************************/
 #erkin
 {
+    height: 12.5rem;
+    margin: 0 auto 0 auto;
     /*
-    background-color: #d3d03f;
+    position: absolute;
+    left: 25%;
+    top: 10%;
     */
-    height: 200px;
 }
 #erkin:hover
 {
-    height: 210px;
+    /*
+    position: absolute;
+    */
+    height: 13.125rem;
+}
+#bilkent
+{
+    margin: 0 auto 0 auto;
+    border: 5px;
+    /*
+    position: absolute;
+    right: 25%;
+    top: 10%;
+    */
+    height: auto;
+}
+#bilkent:hover
+{
+    margin: 0 auto 0 auto;
+    height: 180px;
+    width: 320px;
+}
+#book-img
+{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+    /*if you do "clear" to the paragraph, then while image will float, paragraph comes down*/
+}
+#penguin-img
+{
+    width: 15%;
+    height: 15%;
+    float: right;
+    margin-right: 30px;
+}
+#root-img
+{
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
 }
